@@ -1,0 +1,90 @@
+.feedback{
+    background:#FF8D15;
+    padding-bottom: 60px;
+    &__wrapper{ 
+        display: flex;
+    }
+    &__form{
+        opacity: 0;
+        margin-left: 40px;
+        padding-top: 100px;
+        &-title{
+            font-size: 45px;
+            color:#fff;
+        }
+    }
+
+    &__accordion{
+        opacity: 0;
+        margin-left: 40px;
+        margin-top: 60px;
+        background:#f4f4f5;
+        width: 600px;
+        &-wrapper{
+            margin: 30px;
+        }
+        &-img{
+            width: 15px;
+            height: 15px;
+        }
+        &-heading{
+            display: flex;
+            justify-content: space-between;
+            background:#fff;
+            padding: 10px 15px 10px 15px;
+            font-size: 16px;
+            font-weight: 700;
+            margin-top: 20px;
+            transition: 0.5s all;
+        }
+        &-heading:hover{
+            background:#dbdbdb;
+        }
+        &-block{
+            display: none;
+            padding: 40px;
+        }
+    }
+}
+.form{
+    margin-top: 20px;
+    
+    &__input{
+        margin-top: 20px;
+        width: 500px;
+        height: 45px;
+        border:none;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    &__input[name="txtcomment"]{
+        height: 200px;
+        float: top;
+        padding-top: 10px;
+        resize: none;
+    }
+
+    .btn{
+        transition: all 0.5s;
+        width: 500px;
+        text-align: center;
+        border:2px solid #fff;
+        background:none;
+        color:#fff;
+        font-weight: 700;
+        font-size: 15px;
+        margin-top: 20px;
+        padding: 15px 0 15px 0;
+        border-radius:15px;
+    }
+    .btn:hover{
+        background:#fff;
+        color:#FF8D15;
+    }
+}
+.active-content {
+    overflow: visible;
+    opacity: 1;
+}

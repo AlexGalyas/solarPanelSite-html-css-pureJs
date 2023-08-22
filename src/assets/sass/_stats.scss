@@ -1,0 +1,35 @@
+.stats{
+    justify-content: space-between;
+    &__wrapper{
+        margin-bottom: 50px;
+    }
+    &__items{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        opacity: 0;
+    }
+    &__item{
+        background:#F4F4F5;
+        width: 280px;
+        height: 250px;
+    }
+    &__img{
+        display: block;
+        margin: 0 auto;
+        width: 50px;
+        padding-top: 35px;
+    }
+    &__quantity{
+        margin-top: 20px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 45px;
+        color:#FF8D15;
+    }
+    &__name{
+        margin-top: 20px;
+        text-align: center;
+        padding-bottom: 35px;
+    }
+}
